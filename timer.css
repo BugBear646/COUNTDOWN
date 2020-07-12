@@ -1345,9 +1345,12 @@ h1{
   text-align: center;
 }
 @media only screen and (max-width: 500px){
+	h1{
+		font-weight:bold;
+	}
 	#clockdiv{
 	position:absolute;
-	left:10px;
+	left:15px;
 	top:6em;
 	font-family: sans-serif;
 	color: #fff;
@@ -1357,69 +1360,8 @@ h1{
 	font-size: 2.5em;
 }
 
-#clockdiv > div{
-	padding:5px;
-	border-radius: 3px;
-	display: inline-block;
-}
-
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	background: rgba(4, 6, 44,0.6);
-	display: inline-block;
-}
-
-.smalltext{
-	padding-top: 5px;
-	font-size: 16px;
-}
-
-#clockdiv .buttons {
-  width: 100%;
-  height: 1.0em;
-  margin: 50px auto 0px auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-
 #clockdiv .button {
-  display: inline-block;
-  height: 1.8em;
-  
-  box-sizing: border-box;
-  line-height: 46px;
-  text-decoration: none;
-  color: #FFF;
-  padding: 0px 15px;
-  border: solid 2px #FFF;
-  border-radius: 10px;
-  text-transform: uppercase;
-  transition: all .2s ease-in-out;
-}
-
-#clockdiv .button:hover {
-  background: linear-gradient(90deg, #200122, #6f0000);
-  animation: lustreanim 3s ease infinite;
-  color: #FFF;
-  border: none;
-}
-
-#clockdiv .button i {
-  margin-right: 5px;
-}
-
-@keyframes lustreanim {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+ font-weight:bold;
+	
 }
 }
