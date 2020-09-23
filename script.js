@@ -1,4 +1,4 @@
-var output = new Date("Jul 20, 2020 00:00:00").getTime();
+var output = new Date("Sept 27, 2020 13:00:00").getTime();
 var time = setInterval(function() {
       var input = new Date().getTime();
       var difference = output - input;
