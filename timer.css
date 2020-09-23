@@ -1415,3 +1415,10 @@ h1{
   transition: all .2s ease-in-out;
 }
 }
+i{
+color:#87CEEB;
+font-size:0.82em;	
+}
+i:hover{
+	color:white;
+}
