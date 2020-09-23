@@ -14,6 +14,6 @@ var time = setInterval(function() {
 
       if (difference < 0) {
         clearInterval(time);
-        document.getElementById("text1").innerHTML = "The scheduled Time had crossed.";
+        document.getElementById("text1").innerHTML = "Pollinated";
       }
     }, 1000);
